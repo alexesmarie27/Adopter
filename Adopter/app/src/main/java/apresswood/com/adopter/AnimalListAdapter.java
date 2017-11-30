@@ -15,7 +15,7 @@ public class AnimalListAdapter extends BaseAdapter {
     private List<PetProfile> petProfiles;
     private MainActivity mainActivity;
 
-    private AnimalListAdapter(List<PetProfile> petProfiles, MainActivity mainActivity) {
+    AnimalListAdapter(List<PetProfile> petProfiles, MainActivity mainActivity) {
         this.petProfiles = petProfiles;
         this.mainActivity = mainActivity;
     }
