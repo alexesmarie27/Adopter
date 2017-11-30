@@ -49,7 +49,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/cardImage"
+                android:id="@+id/card_image"
                 android:layout_width="300dp"
                 android:layout_height="200dp"
                 android:padding="4dp"
@@ -67,7 +67,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/bookText"
+                    android:id="@+id/card_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="start"
