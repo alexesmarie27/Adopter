@@ -56,14 +56,13 @@ public class AnimalListAdapter extends BaseAdapter {
             cardAge = rowView.findViewById(R.id.age);
             cardLocation = rowView.findViewById(R.id.location);
 
-            //TODO add photo from database instead
-            //cardImage.setImageResource(R.drawable.cutepuppy);
+            cardImage.setImageDrawable(petProfile.getProfilePicture());
             cardDescription.setText(petProfile.getDescription());
             cardName.setText(petProfile.getName() + ",");
             cardAge.setText(Integer.toString(petProfile.getAge()));
             cardLocation.setText(petProfile.getLocation());
 
-            Glide.with(mainActivity).load(petProfile.getProfilePicture()).into(cardImage);
+            Glide.with(mainActivity);//.load(petProfile.getProfilePicture()).into(cardImage);
         }
 
         return rowView;

@@ -1,7 +1,7 @@
 package apresswood.com.adopter;
 
 
-import android.media.Image;
+import android.graphics.drawable.Drawable;
 
 class PetProfile {
 
@@ -13,10 +13,10 @@ class PetProfile {
     private String location;
     private String breed;
     private String gender;
-    private Image profilePicture;
+    private Drawable profilePicture;
 
     PetProfile(String name, String description, int age, String location, String breed,
-                      String gender, Image profilePicture) {
+               String gender, Drawable profilePicture) {
         this.description = description;
         this.name = name;
         this.age = age;
@@ -50,7 +50,7 @@ class PetProfile {
         return this.gender;
     }
 
-    Image getProfilePicture() {
+    Drawable getProfilePicture() {
         return this.profilePicture;
     }
 }

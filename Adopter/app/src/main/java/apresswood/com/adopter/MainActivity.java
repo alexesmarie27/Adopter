@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO delete aftet DB set up
         List<PetProfile> petProfiles = new ArrayList<>();
         PetProfile petProfile1 = new PetProfile("DogName", "This is a test description", 2,
-                "Test Location", "Test breed", "Female", null);
+                "Test Location", "Test breed", "Female", this.getDrawable(R.drawable.cutepuppy));
         petProfiles.add(petProfile1);
 
         //TODO call db to get list of animals
