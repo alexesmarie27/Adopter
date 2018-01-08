@@ -15,7 +15,7 @@ class PetProfile {
     private String gender;
     private Image profilePicture;
 
-    public PetProfile(String name, String description, int age, String location, String breed,
+    PetProfile(String name, String description, int age, String location, String breed,
                       String gender, Image profilePicture) {
         this.description = description;
         this.name = name;
@@ -27,30 +27,30 @@ class PetProfile {
     }
 
     String getDescription() {
-        return description;
+        return this.description;
     }
 
     String getName() {
-        return name;
+        return this.name;
     }
 
     int getAge() {
-        return age;
+        return this.age;
     }
 
     String getLocation() {
-        return location;
+        return this.location;
     }
 
     String getBreed() {
-        return breed;
+        return this.breed;
     }
 
     String getGender() {
-        return gender;
+        return this.gender;
     }
 
     Image getProfilePicture() {
-        return profilePicture;
+        return this.profilePicture;
     }
 }

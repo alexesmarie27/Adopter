@@ -41,6 +41,9 @@ public class AnimalListAdapter extends BaseAdapter {
         View rowView = convertView;
         ImageView cardImage;
         TextView cardDescription;
+        TextView cardName;
+        TextView cardAge;
+        TextView cardLocation;
 
         if (rowView == null) {
             LayoutInflater inflater = mainActivity.getLayoutInflater();
@@ -48,8 +51,14 @@ public class AnimalListAdapter extends BaseAdapter {
 
             cardImage = rowView.findViewById(R.id.card_image);
             cardDescription = rowView.findViewById(R.id.card_description);
+            cardName = rowView.findViewById(R.id.name);
+            cardAge = rowView.findViewById(R.id.age);
+            cardLocation = rowView.findViewById(R.id.location);
 
             cardDescription.setText(petProfile.getDescription());
+            cardName.setText(petProfile.getName() + ",");
+            cardAge.setText(Integer.toString(petProfile.getAge()));
+            cardLocation.setText(petProfile.getLocation());
 
             Glide.with(mainActivity).load(petProfile.getProfilePicture()).into(cardImage);
         }

@@ -7,6 +7,9 @@ import android.view.View;
 
 import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     private SwipeFlingAdapterView flingContainer;
@@ -19,8 +22,14 @@ public class MainActivity extends AppCompatActivity {
 
         flingContainer = (SwipeFlingAdapterView) findViewById(R.id.frame);
 
+        //TODO delete aftet DB set up
+        List<PetProfile> petProfiles = new ArrayList<>();
+        PetProfile petProfile1 = new PetProfile("DogName", "This is a test description", 2,
+                "Test Location", "Test breed", "Female", null);
+        petProfiles.add(petProfile1);
+
         //TODO call db to get list of animals
-        adapter = new AnimalListAdapter(null, MainActivity.this);
+        adapter = new AnimalListAdapter(petProfiles, MainActivity.this);
         flingContainer.setAdapter(adapter);
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {
             @Override
