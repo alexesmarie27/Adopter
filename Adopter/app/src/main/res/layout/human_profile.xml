@@ -7,10 +7,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/edit_profile"/>
+        android:onClick="goToEditProfile"
+        android:text="@string/edit_profile" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/account_settings"/>
+        android:text="@string/account_settings" />
 </LinearLayout>
