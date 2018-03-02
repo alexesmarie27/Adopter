@@ -9,6 +9,7 @@
     <string name="kids">Good With Kids</string>
     <string name="housebroken">Housebroken</string>
     <string name="other_animals">Good With Other Animals</string>
+    <string name="profile">Profile</string>
 
     <string name="back_button">&#xf060;</string>
 
@@ -20,6 +21,13 @@
 
     <string-array name="yes_no_array">
         <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="other_animals_array">
+        <item>Cats</item>
+        <item>Dogs</item>
+        <item>Both</item>
         <item>No</item>
     </string-array>
 </resources>

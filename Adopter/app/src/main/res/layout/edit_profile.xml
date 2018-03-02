@@ -169,7 +169,7 @@
                 android:padding="10dp"
                 mstb:mstbPrimaryColor="@color/light_grey"
                 mstb:mstbSecondaryColor="@color/colorPrimary"
-                mstb:values="@array/yes_no_array" />
+                mstb:values="@array/other_animals_array" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
