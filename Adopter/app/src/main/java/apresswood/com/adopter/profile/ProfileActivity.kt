@@ -1,9 +1,10 @@
-package apresswood.com.adopter
+package apresswood.com.adopter.profile
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import apresswood.com.adopter.R
 
 
 class ProfileActivity : AppCompatActivity() {

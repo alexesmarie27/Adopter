@@ -11,6 +11,8 @@ import com.lorentzos.flingswipe.SwipeFlingAdapterView;
 import java.util.ArrayList;
 import java.util.List;
 
+import apresswood.com.adopter.profile.ProfileActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private SwipeFlingAdapterView flingContainer;
