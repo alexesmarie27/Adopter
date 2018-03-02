@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Woofy</string>
+    <string name="app_name">Woof</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="account_settings">Account Settings</string>
 </resources>
