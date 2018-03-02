@@ -34,11 +34,22 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
         android:onClick="goToEditProfile"
-        android:text="@string/edit_profile" />
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="@string/edit_profile"
+        android:textColor="@color/light_grey"
+        android:textSize="20sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/account_settings" />
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="@string/account_settings"
+        android:textColor="@color/light_grey"
+        android:textSize="20sp" />
 </LinearLayout>
