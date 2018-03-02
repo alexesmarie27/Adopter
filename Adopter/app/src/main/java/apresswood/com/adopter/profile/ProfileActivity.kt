@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
-import apresswood.com.adopter.FontManager
+import apresswood.com.adopter.utils.FontManager
 import apresswood.com.adopter.MainActivity
 import apresswood.com.adopter.R
 import kotlinx.android.synthetic.main.edit_profile.*

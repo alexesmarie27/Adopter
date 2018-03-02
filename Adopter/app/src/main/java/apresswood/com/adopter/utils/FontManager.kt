@@ -1,4 +1,4 @@
-package apresswood.com.adopter
+package apresswood.com.adopter.utils
 
 import android.content.Context
 import android.graphics.Typeface

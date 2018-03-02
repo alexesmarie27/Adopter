@@ -1,4 +1,4 @@
-package apresswood.com.adopter
+package apresswood.com.adopter.data
 
 import android.graphics.drawable.Drawable
 

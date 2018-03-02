@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.widget.SeekBar
-import apresswood.com.adopter.FontManager
+import apresswood.com.adopter.utils.FontManager
 import apresswood.com.adopter.R
 import kotlinx.android.synthetic.main.edit_profile.*
 import org.honorato.multistatetogglebutton.ToggleButton

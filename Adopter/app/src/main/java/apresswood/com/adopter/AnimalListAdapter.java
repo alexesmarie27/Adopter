@@ -11,6 +11,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+import apresswood.com.adopter.data.PetProfile;
+
 public class AnimalListAdapter extends BaseAdapter {
     private List<PetProfile> petProfiles;
     private MainActivity mainActivity;
